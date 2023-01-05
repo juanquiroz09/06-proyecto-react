@@ -170,6 +170,12 @@ input[type="button"] {
   outline: 0;
   border-color: transparent;
 }
+.edit_form{
+  display: flex;
+  justify-content: center;
+ flex-direction: column;
+}
+
 /*EStilos para el pie de página*/
 .footer {
   grid-area: footer;

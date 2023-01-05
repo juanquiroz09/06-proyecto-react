@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Editar from "./components/Editar";
+import Editar from "./Editar";
 
 export const Listado = ({listState, setListState}) => {
   //const [listState, setListState] = useState([]);
