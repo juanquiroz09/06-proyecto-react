@@ -1,6 +1,7 @@
 import Buscador from "./components/Buscador";
 import Listado from "./components/Listado";
 import Crear from "./components/Crear";
+import Editar from "./components/Editar";
 import { useState } from "react";
 
 function App() {
