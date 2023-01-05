@@ -4,6 +4,7 @@ const Editar = () => {
   const titulo_componente = "Editar Película";
   return (
     <div className='edit_form'>
+       <hr/>
       <h3 className='title'>{titulo_componente}</h3>
       <form>
         <input type="text" name='titulo' className='titulo_editado' defaultValue='Titulo original de la pelicula' />

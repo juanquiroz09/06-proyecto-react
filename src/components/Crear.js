@@ -47,6 +47,7 @@ const Crear = ({setListState}) => {
           <textarea id='review' name='review' placeholder="Descripcion"></textarea>
           <input type="submit" value="Guardar" />
         </form>
+       
       </div>
   )
 }

@@ -170,10 +170,19 @@ input[type="button"] {
   outline: 0;
   border-color: transparent;
 }
-.edit_form{
-  display: flex;
-  justify-content: center;
- flex-direction: column;
+
+.edit_form input[type="text"],
+.edit_form textarea {
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 12px;
+  border-radius: 5px;
+  background: #eaecf0;
+  color: #454545;
+  opacity: 4;
+  outline: 0;
+  border-color: transparent;
 }
 
 /*EStilos para el pie de página*/
