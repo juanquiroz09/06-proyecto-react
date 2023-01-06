@@ -44,7 +44,7 @@ export const Listado = ({listState, setListState}) => {
               <button className="delete" onClick={() => borrarPeli(peli.id)}>Borrar</button>
               {/*aqui aparece el formulario de editar */}
               {editar === peli.id && (
-              <Editar></Editar>
+              <Editar peli={peli}></Editar>
               )}
               
             </article>
