@@ -202,4 +202,12 @@ input[type="button"] {
     justify-content: center;
     align-items: center;
   }
+
+  .peli-item{
+    width: 80%;
+  }
+}
+
+.no-encontrado{
+  color:#9b0202;
 }
